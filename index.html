@@ -7,43 +7,62 @@
     <style>
         body {
             background-color: rgb(181, 216, 246);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 0 10px;
+        }
+        li {
+            margin: 10px;
+        }
+        code {
+            padding: 0 3px;
+            background-color: #eee;
+            border-radius: 3px;
+            font-weight: bolder;
+            font-family: 'Courier New', Courier, monospace;
         }
     </style>
 </head>
 <body>
-    <h1>Principais Formatações de Caracteres: <em>Strong & Emphasis / Inserted & Deleted / Marked / Superscript & Subscript / Limpsum</em></h1>
+    <h1>&#128396; Principais Formatações de Caracteres:</h1>
+    <h2>Strong & Emphasis | Inserted & Deleted | Marked | Superscript & Subscript | Limpsum</h2>
+    <ul>
+    <li>As formatações de caracteres em HTML5 tem a necessidade de serem semânticas, ou seja, as formatações devem ter uma finalidade;
+    </li>
+    <li>Utilizando assim um nome que remeta a finalidade da formatação e não o nome do estilo de formatação em si.</li>
+    </ul>
 
     <!--tag style-->
-    <h2>Negrito/Forte</h2>
-    <p>&lt;/b&gt; <b>Bold</b>(não-semântico)
-    <p>&lt;/strong&gt; <strong>Strong</strong>(semântico)
+    <h2>1. Negrito &gt; Forte</h2>
+    <p><code>&lt;/b&gt;</code> <b>Bold</b> (não-semântico)
+    <p><code>&lt;/strong&gt;</code> <strong>Strong</strong> (semântico)
     </p>
     
-    <h2>Itálico/Ênfase</h2>
-    <p>&lt;/i&gt; <i>Italic</i>(não-semântico)</p>
-    <p>&lt;/em&gt; <em>Emphasis</em>(semântico)</p>
+    <h2>2. Itálico &gt; Ênfase</h2>
+    <p><code>&lt;/i&gt;</code> <i>Italic</i> (não-semântico)</p>
+    <p><code>&lt;/em&gt;</code> <em>Emphasis</em> (semântico)</p>
 
 
-    <h2>Sublinhado/Inserido</h2>
-    <p>&lt;/u&gt; <u>Underline</u>(não-semântico)</p>
-    <p>&lt;/ins&gt; <ins>Inserted</ins>(semântico)</p>
+    <h2>3. Sublinhado &gt; Inserido</h2>
+    <p><code>&lt;/u&gt;</code> <u>Underline</u> (não-semântico)</p>
+    <p><code>&lt;/ins&gt;</code> <ins>Inserted</ins> (semântico)</p>
 
-    <h2>Deletado</h2>
-    <p>&lt;/del&gt; <del>Deleted</del></p>
+    <h2>4. Deletado</h2>
+    <p><code>&lt;/del&gt;</code> <del>Deleted</del></p>
 
-    <h2>Marcado</h2>
-    <p>&lt;/mark&gt; <mark style="background-color: whitesmoke;">Mark</mark>(semântico)</p> 
+    <h2>5. Marcado</h2>
+    <p><code>&lt;/mark&gt;</code> <mark style="background-color: ghostwhite;">Mark</mark> (semântico)</p> 
 
-    <h2>Sobrescrito</h2>
-    <p>&lt;/sup&gt; <sup>Superscript</sup></p>
+    <h2>6. Sobrescrito</h2>
+    <p><code>&lt;/sup&gt;</code> <sup>Superscript</sup></p>
     <p><strong>Ex: </strong>20<sup>2</sup> x 2 = 800</p>
 
-    <h2>Subscrito</h2>
-    <p>&lt;/sub&gt; <sub>Subscript</sub></p>
+    <h2>7. Subscrito</h2>
+    <p><code>&lt;/sub&gt;</code> <sub>Subscript</sub></p>
     <p><strong>Ex: </strong>Fórmula H<sub>2</sub>O</p>
 
-    <h2>Inserção de Lipsum</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quibusdam error distinctio facere ea impedit. <b>Lorem10: Cria 10 palavras com Lorem Ipsum. lor</b>
-    </p>
+    <h2>9. Inserção de Lipsum</h2>
+    <p><strong>Ex:</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quibusdam error distinctio facere ea impedit.</p>
+    <li><code>Lorem10</code> Cria 10 palavras com Lorem Ipsum.
+    </li>
 </body>
 </html>
